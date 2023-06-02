@@ -581,7 +581,7 @@
 
                         </div>
 
-                    {{-- </div>
+                    </div>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -593,24 +593,31 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/slides-1.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/zumba2.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <h5>Zumba</h5>
+                                    <p>Zumba merupakan jenis senam yang menggabungkan
+                                        berbagai aliran dan jenis musik. Gerakannya yang menuntut banyak energi akan
+                                        membantu membentuk tubuh kamu menjadi lebih ideal. </p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-2.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/pushup2.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <h5>Push-up</h5>
+                                    <p>Melakukan push up akan membantu membentuk otot tubuh bagian atas yang akan
+                                        membuat kamu terlihat lebih kekar. Rutin melakukan gerakan ini dan
+                                        mengimbanginya dengan konsumsi makanan bergizi akan membuat tubuh kamu tampak
+                                        berisi dengan lebih cepat.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-3.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/situp.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <h5>Sit-up</h5>
+                                    <p>Sit-up akan membentuk otot perut dan gerakan yang dilakukan dengan menarik otot
+                                        punggung ini juga mampu melatih otot tubuh menjadi lebih kuat, sehingga tubuh
+                                        menjadi lebih stabil dan postur tubuh kamu pun akan terlihat lebih ideal.</p>
                                 </div>
                             </div>
                         </div>
@@ -626,7 +633,7 @@
                             <span class="visually-hidden">Next</span>
                         </button>
 
-                    </div> --}}
+                    </div>
 
         </section>
 

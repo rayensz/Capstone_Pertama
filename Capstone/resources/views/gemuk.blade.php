@@ -581,7 +581,7 @@
 
                         </div>
 
-                    {{-- </div>
+                    </div>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -593,24 +593,28 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/slides-1.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/plank.jpeg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <h5>Plank</h5>
+                                    <p>Latihan kekuatan merupakan bagian penting dari program diet, karena dapat
+                                        membantu mempertahankan massa otot dan meningkatkan metabolisme.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-2.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/angkatbeban2.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <h5>Angkat Beban</h5>
+                                    <p>Mengangkat beban selama 30 menit dapat membakar 112 kalori pada orang dengan
+                                        berat badan 70 kilogram dan juga dapat memperkuat dan merangsang pertumbuhan
+                                        otot.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-3.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/berenang3.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <h5>Berenang</h5>
+                                    <p>Setiap orang yang memiliki berat badan 70 kilogram yang melakukan renang gaya
+                                        punggung dapat membakar sekitar 298 kalori per 30 menit.</p>
                                 </div>
                             </div>
                         </div>
@@ -626,7 +630,7 @@
                             <span class="visually-hidden">Next</span>
                         </button>
 
-                    </div> --}}
+                    </div>
 
         </section>
 

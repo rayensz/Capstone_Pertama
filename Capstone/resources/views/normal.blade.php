@@ -581,7 +581,7 @@
 
                         </div>
 
-                    {{-- </div>
+                    </div>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -593,24 +593,27 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/slides-1.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/berlari.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <h5>Jogging</h5>
+                                    <p>Aktivitas fisik ini dapat membuat jantung dan paru-paru bekerja lebih keras
+                                        sehingga tubuh membakar sel-sel lemak yang selama ini disimpan.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-2.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/bersepeda.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <h5>Bersepeda</h5>
+                                    <p>Bersepeda merupakan latihan kardio yang efektif karena dapat membakar lemak di
+                                        dalam tubuh saat menjaga peda terus berputar. </p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-3.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/squad1.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <h5>Squad Jump</h5>
+                                    <p>Rutin melakukan squats dapat melatih kekuatan otot kaki serta meningkatkan
+                                        keseimbangan tubuh dan juga membakar 50 kalori hanya dengan 10 gerakan saja.</p>
                                 </div>
                             </div>
                         </div>
@@ -626,7 +629,7 @@
                             <span class="visually-hidden">Next</span>
                         </button>
 
-                    </div> --}}
+                    </div>
 
         </section>
 

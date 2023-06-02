@@ -19,4 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/formpenghitungan', [KalkulatorController::class, 'index']);
-Route::post('/hasilperhitungan',[KalkulatorController::class,'penghitungan']);
+Route::get('/kurus', [KalkulatorController::class, 'kurus']);
+Route::get('/normal', [KalkulatorController::class, 'normal']);
+Route::get('/gemuk', [KalkulatorController::class, 'gemuk']);
+Route::post('/hasilperhitungan', [KalkulatorController::class, 'penghitungan']);
