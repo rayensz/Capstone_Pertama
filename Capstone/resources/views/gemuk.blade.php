@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>{{ $title }}</title>
+    <title>Forms / Layouts - NiceAdmin Bootstrap Template</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -119,7 +119,7 @@
 
                         </div>
 
-                        {{-- </div>
+                    </div>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -131,24 +131,28 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{ asset('img/slides-1.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/plank.jpeg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <h5>Plank</h5>
+                                    <p>Latihan kekuatan merupakan bagian penting dari program diet, karena dapat
+                                        membantu mempertahankan massa otot dan meningkatkan metabolisme.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-2.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/angkatbeban2.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <h5>Angkat Beban</h5>
+                                    <p>Mengangkat beban selama 30 menit dapat membakar 112 kalori pada orang dengan
+                                        berat badan 70 kilogram dan juga dapat memperkuat dan merangsang pertumbuhan
+                                        otot.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('img/slides-3.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/berenang3.jpg') }}" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <h5>Berenang</h5>
+                                    <p>Setiap orang yang memiliki berat badan 70 kilogram yang melakukan renang gaya
+                                        punggung dapat membakar sekitar 298 kalori per 30 menit.</p>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +168,82 @@
                             <span class="visually-hidden">Next</span>
                         </button>
 
-                    </div> --}}
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Saran Artikel</h5>
+
+                            <div class="news">
+                                <div class="post-item clearfix">
+                                    <img src="{{ asset('img/olahraga1.jpg') }}" alt="Gambar Orang Olahraga"
+                                        height="200" width="300">
+                                    <h4><a
+                                            href="https://www.halodoc.com/artikel/dosis-olahraga-yang-dianjurkan-agar-tetap-sehat"target="blank">Dosis
+                                            olahraga yang dianjurkan agar tetap sehat</a></h4>
+                                    <p>Olahraga menjadi cara terbaik untuk menjaga kesehatan tubuh. Tidak hanya itu,
+                                        aktivitas fisik ini dipercaya dapat membantu menurunkan berat badan.</p>
+                                </div>
+
+                                <div class="post-item clearfix">
+                                    <img src="{{ asset('img/makanan.jpg') }}" alt="Gambar Makanan Sehat"
+                                        height="200" width="300">
+                                    <h4><a href="https://www.halodoc.com/artikel/hari-gizi-nasional-ini-5-tips-terapkan-pola-makan-sehat"
+                                            target="blank">Hari
+                                            Gizi Nasional, Ini 5 Tips Terapkan Pola Makan Sehat </a></h4>
+                                    <p>Menjaga pola makan sehat menjadi salah satu cara menjaga kesehatan tubuh secara
+                                        keseluruhan. Agar hasilnya maksimal, kamu perlu menerapkannya sesuai dengan
+                                        kondisi kebugaran masing-masing.
+                                    </p>
+                                </div>
+
+                                <div class="post-item clearfix">
+                                    <img src="{{ asset('img/olahraga2.jpg') }}" alt="" height="200"
+                                        width="300">
+                                    <h4><a href="https://rsudkertosono.nganjukkab.go.id/web2/artikel/5-langkah-mudah-menuju-pola-hidup-sehat"
+                                            target="blank">5
+                                            langkah mudah menuju hidup sehat</a></h4>
+                                    <p>Pola hidup sehat sebaiknya dijalankan sejak dini agar terhindar dari berbagai
+                                        serangan penyakit. Penyakit yang mengintai akibat pola hidup yang buruk antara
+                                        lain diabetes, gagal ginjal, kanker, maupun penyakit kardiovaskular seperti
+                                        stroke, darah tinggi, dan jantung.
+                                    </p>
+                                </div>
+
+                                <div class="post-item clearfix">
+                                    <img src="{{ asset('img/motivasi.jpg') }}" alt="Gambar Orang Olahraga"
+                                        height="200" width="300">
+                                    <h4><a href="https://hellosehat.com/kebugaran/tips-olahraga/meningkatkan-motivasi-olahraga/"
+                                            target="blank">11 Tips Motivasi Diri supaya Lebih Rajin Berolahraga</a>
+                                    </h4>
+                                    <p>
+                                        Memulai berolahraga memang merupakan suatu hal yang sulit dilakukan. Orang-orang
+                                        yang sudah rutin melakukannya bahkan masih bisa kehilangan motivasi dan malas
+                                        untuk memulai olahraga setelah lama berhenti.
+                                    </p>
+                                </div>
+
+                                <div class="post-item clearfix">
+                                    <img src="{{ asset('img/jenis.jpg') }}" alt="" height="200"
+                                        width="300">
+                                    <h4><a href="https://hellosehat.com/kebugaran/jenis-olahraga/"
+                                            target="blank">Jenis-Jenis Olahraga dan Manfaatnya untuk Kesehatan</a>
+                                    </h4>
+                                    <p>Ada berbagai cara untuk menjaga kebugaran tubuh dan kesehatan mental, salah
+                                        satunya dengan berolahraga. Terdapat beberapa jenis olahraga yang lebih disukai
+                                        oleh banyak orang di Indonesia. </p>
+                                </div>
+
+                            </div><!-- End sidebar recent posts-->
+
+                        </div>
+                    </div>
+
+
+
 
         </section>
 

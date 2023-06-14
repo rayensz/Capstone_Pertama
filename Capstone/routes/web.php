@@ -15,8 +15,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        "title" => "Halaman Home"
+    ]);
 });
 
+Route::get('/profil', [KalkulatorController::class, 'profil']);
 Route::get('/formpenghitungan', [KalkulatorController::class, 'index']);
-Route::post('/hasilperhitungan',[KalkulatorController::class,'penghitungan']);
+Route::get('/kurus', [KalkulatorController::class, 'kurus']);
+Route::get('/normal', [KalkulatorController::class, 'normal']);
+Route::get('/gemuk', [KalkulatorController::class, 'gemuk']);
+Route::get('/obesitas', [KalkulatorController::class, 'obesitas']);
+
+Route::post('/hasilperhitungan', [KalkulatorController::class, 'penghitungan']);
