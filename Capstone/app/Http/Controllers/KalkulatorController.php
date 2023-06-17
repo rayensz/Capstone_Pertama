@@ -51,4 +51,16 @@ class KalkulatorController extends Controller
             "title" => "Form Penghitungan"
         ]);
     }
+    public function profil()
+    {
+        return view('profil', [
+            "title" => "Profil"
+        ]);
+    }
+    public function obesitas()
+    {
+        return view('obesitas', [
+            "title" => "obesitas"
+        ]);
+    }
 }

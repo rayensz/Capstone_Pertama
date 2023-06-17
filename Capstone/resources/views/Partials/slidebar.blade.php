@@ -20,7 +20,7 @@
                 data-bs-parent="#sidebar-nav">
                 <li>
                     <a class="{{ $title === 'Form Penghitungan' ? 'active' : '' }} " href="formpenghitungan">
-                        <i class="bi bi-circle"></i><span>Form Layouts</span>
+                        <i class="bi bi-circle"></i><span>Kalkulator BMI</span>
                     </a>
                 </li>
             </ul>

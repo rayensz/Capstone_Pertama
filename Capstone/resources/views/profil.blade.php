@@ -56,7 +56,7 @@
             <h1>Profile</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
                     <li class="breadcrumb-item">Users</li>
                     <li class="breadcrumb-item active">Profile</li>
                 </ol>
@@ -67,14 +67,16 @@
         <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                <img src="{{ asset('img/profile-img.jpg') }}" alt="Profile" class="rounded-circle">
-                <h2>Kevin Anderson</h2>
-                <h3>Web Designer</h3>
+                <img src="{{ asset('img/Abe.jpg') }}" alt="Profile" height="150" width="150"
+                    class="rounded-circle">
+                <h2>Norick Maurid Abe Sibarani</h2>
                 <div class="social-links mt-2">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/abesibarani" target="blank" class="github"><i
+                            class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/abesibarani/" target="blank" class="instagram"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/norick-maurid-abe-sibarani-356367256/" target="blank"
+                        class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -82,14 +84,16 @@
         <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                <img src="{{ asset('img/profile-img.jpg') }}" alt="Profile" class="rounded-circle">
-                <h2>Kevin Anderson</h2>
-                <h3>Web Designer</h3>
+                <img src="{{ asset('img/Ryan.jpg') }}" alt="Profile" height="150" width="150"
+                    class="rounded-circle">
+                <h2>Ryan Sulistiawan Haryanto</h2>
                 <div class="social-links mt-2">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/ryan.sulistiawan/" target="blank" class="facebook"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/ryansulistiawan_/" target="blank" class="instagram"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ryan-sulistiawan-haryanto-364b49261/" target="blank"
+                        class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -97,14 +101,15 @@
         <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                <img src="{{ asset('img/profile-img.jpg') }}" alt="Profile" class="rounded-circle">
-                <h2>Kevin Anderson</h2>
-                <h3>Web Designer</h3>
+                <img src="{{ asset('img/Safrylia.png') }}" alt="Profile" height="150" width="150"
+                    class="rounded-circle">
+                <h2>Safrylia Dyah Pramitha</h2>
                 <div class="social-links mt-2">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" target="blank" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" target="blank" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://instagram.com/safrylia_?igshid=MzNlNGNkZWQ4Mg==" target="blank"
+                        class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" target="blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -112,13 +117,14 @@
         <div class="card">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                <img src="{{ asset('img/profile-img.jpg') }}" alt="Profile" class="rounded-circle">
-                <h2>Kevin Anderson</h2>
-                <h3>Web Designer</h3>
+                <img src="{{ asset('img/Araselly.jpeg') }}" alt="Profile" height="150" width="150"
+                    class="rounded-circle">
+                <h2>Araselly Agnes Pramudiawati</h2>
                 <div class="social-links mt-2">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="https://twitter.com/APramudiawati19" class="twitter"><i class="bi bi-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/arasellyyyy/" class="instagram"><i
+                            class="bi bi-instagram"></i></a>
                     <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
@@ -132,18 +138,6 @@
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-        <div class="copyright">
-            &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-    </footer><!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
